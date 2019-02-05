@@ -33,7 +33,7 @@ class App extends Component {
     const person = {
       ...this.state.persons[personIndex]
     };
-    
+
     person.name = event.target.value;
 
     const persons = [...this.state.persons];
@@ -63,9 +63,11 @@ class App extends Component {
           age={person.age}
           key={person.id}
           changed={(event) => this.nameChangedHandler(event, person.id)} />
-        })}
+        })}3
         </div>
       );
+
+      style.backgroundColor = 'blue';
     }
 
     return (
