@@ -1,0 +1,41 @@
+.cockpit {
+  text-align: center;
+}
+
+@media {min-width: 500px} {
+  .Person {
+    width: 450px;
+  }
+}
+
+.red {
+  color: red;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.cockpit button {
+  border: 1px solid blue;
+  padding: 10px;
+  background-color: cyan;
+  font: inherit;
+  color: magenta;
+  cursor: pointer;
+}
+
+.cockpit button:hover {
+  background-color: black;
+  color: white;
+}
+
+
+.cockpit button.Red {
+  background-color: red;
+}
+
+.cockpit button.Red:hover {
+  background-color: black;
+  color: red;
+}
